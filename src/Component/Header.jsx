@@ -3,14 +3,15 @@ import Logo from "./Logo";
 import MenuItem from "./MenuItem";
 
 export default function Header() {
-
-    return (
-        <>
-            <div className="bg-yellow-500 flex justify-between font-serif py-3 px-8">
-                <Logo />
-                <MenuItem />
-                <LogIn />
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div className="bg-zinc-900  py-3">
+        <div className="container flex justify-between mx-auto ">
+          <Logo />
+          <MenuItem />
+          <LogIn />
+        </div>
+      </div>
+    </>
+  );
 }

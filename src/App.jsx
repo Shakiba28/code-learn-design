@@ -5,7 +5,7 @@ import './App.css'
 import Header from './Component/Header'
 import Footer from './Component/Footer'
 import Content from './Component/Content'
-import AboutUs from './Component/AboutUs'
+import AboutUs from './Component/About/AboutUs'
 import Posts from './Component/Posts'
 import Home from './Component/Home'
 
@@ -13,13 +13,8 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col">
-        <Header />
         <Home />
         <Posts />
-        <Footer />
-      </div>
-
     </>
   )
 }
